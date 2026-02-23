@@ -13,7 +13,7 @@ const stats = [
 export default function InvestCTA() {
   return (
     <section className="section-padding bg-linear-to-b from-accent to-white">
-      <div className="container-custom">
+      <div className="container-custom w-[70%] mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

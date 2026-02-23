@@ -14,8 +14,9 @@ const values = [
 
 export default function About() {
   return (
-    <section className="section-padding bg-linear-to-b from-white to-accent">
-      <div className="container-custom">
+    // bg-linear-to-b from-white to-accent
+    <section className="section-padding bg-white">
+      <div className="container-custom w-[70%] mx-auto py-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -23,8 +24,8 @@ export default function About() {
           viewport={{ once: true }}
           className="max-w-3xl mx-auto text-center mb-16"
         >
-          <h2 className="heading-2 text-primary mb-4">Who We Are</h2>
-          <p className="text-xl text-muted-foreground">
+          <h2 className="heading-2 text-primary mb-4 text-green-800">Who We Are</h2>
+          <p className="text-xl text-gray-500">
             Elikya Foods is a mission-driven agrifood company based in Kinshasa, 
             Democratic Republic of Congo.
           </p>
@@ -37,7 +38,7 @@ export default function About() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h3 className="heading-3 mb-6">Our Approach</h3>
+            <h3 className="heading-3 mb-6 text-green-800">Our Approach</h3>
             <ul className="space-y-4">
               {[
                 'Reduce massive post-harvest losses (currently 40–50% of produce)',
@@ -45,23 +46,23 @@ export default function About() {
                 'Increase farmer incomes through fair pricing and technical support'
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <span className="text-secondary font-bold">•</span>
-                  <span>{item}</span>
+                  <span className="text-gray-500 font-bold">•</span>
+                  <span className='text-gray-500'>{item}</span>
                 </li>
               ))}
             </ul>
 
             <div className="mt-8 p-6 bg-white rounded-xl shadow-lg">
-              <h4 className="font-bold text-primary mb-2">Our Mission</h4>
-              <p className="text-muted-foreground">
+              <h4 className="font-bold text-green-800 mb-2">Our Mission</h4>
+              <p className="text-gray-500">
                 Meet the growing demand for safe, nutritious food in Africa&apos;s fast-growing cities 
                 while improving farmer livelihoods and eliminating waste.
               </p>
             </div>
 
             <div className="mt-6 p-6 bg-white rounded-xl shadow-lg">
-              <h4 className="font-bold text-primary mb-2">Our Vision</h4>
-              <p className="text-muted-foreground">
+              <h4 className="font-bold text-green-800 mb-2">Our Vision</h4>
+              <p className="text-gray-500">
                 A thriving DRC agrifood sector where quality nutrition is accessible locally, 
                 smallholders prosper, and Congolese fresh produce earns a respected place in 
                 global supply chains — proving that African agriculture can feed its people 
@@ -79,7 +80,7 @@ export default function About() {
           >
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
               <Image 
-                src="/images/team.jpg" 
+                src="/hero.jpg" 
                 alt="Elikya Foods Team"
                 width={500}
                 height={500}
@@ -98,7 +99,7 @@ export default function About() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h3 className="heading-3 mb-8">Core Values</h3>
+          <h3 className="heading-3 mb-8 text-green-800">Core Values</h3>
           <div className="flex flex-wrap justify-center gap-8">
             {values.map((value, index) => (
               <motion.div
@@ -110,9 +111,9 @@ export default function About() {
                 className="flex flex-col items-center"
               >
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-3">
-                  <value.icon className="h-8 w-8 text-primary" />
+                  <value.icon className="h-8 w-8 text-green-800" />
                 </div>
-                <span className="font-semibold">{value.name}</span>
+                <span className="font-semibold text-green-800">{value.name}</span>
               </motion.div>
             ))}
           </div>

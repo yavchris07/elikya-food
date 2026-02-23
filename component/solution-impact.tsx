@@ -17,8 +17,8 @@ const impacts = [
 
 export default function SolutionImpact() {
   return (
-    <section className="section-padding bg-white">
-      <div className="container-custom">
+    <section className="section-padding bg-zinc-400">
+      <div className="container-custom w-[70%] mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -63,7 +63,7 @@ export default function SolutionImpact() {
           viewport={{ once: true }}
           className="grid md:grid-cols-2 gap-8 mb-20"
         >
-          <div className="p-8 bg-gradient-to-br from-primary/5 to-secondary/5 rounded-2xl">
+          <div className="p-8 bg-linear-to-br from-primary/5 to-secondary/5 rounded-2xl">
             <h3 className="heading-3 mb-6">Key Differentiators</h3>
             <ul className="space-y-4">
               {[
@@ -80,9 +80,9 @@ export default function SolutionImpact() {
             </ul>
           </div>
 
-          <div className="p-8 bg-gradient-to-br from-red-50 to-orange-50 rounded-2xl">
+          <div className="p-8 bg-linear-to-br from-red-50 to-orange-50 rounded-2xl">
             <h3 className="heading-3 mb-6">What We Solve</h3>
-            <ul className="space-y-4">
+            <ul className="space-y-4 text-blue-600">
               {[
                 '40–50% post-harvest loss in the DRC',
                 'Unreliable quality and availability for urban buyers',
