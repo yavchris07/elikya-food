@@ -5,7 +5,7 @@ import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'luc
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
-      <div className="container-custom py-12">
+      <div className="container-custom py-12 px-12">
         <div className="grid md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
@@ -85,7 +85,7 @@ export default function Footer() {
               />
               <button
                 type="submit"
-                className="px-4 py-2 bg-secondary hover:bg-secondary/90 rounded-lg font-semibold transition-colors"
+                className="px-4 py-2 bg-gray-800 hover:bg-gray-600 rounded-lg font-semibold transition-colors cursor-pointer"
               >
                 Subscribe
               </button>

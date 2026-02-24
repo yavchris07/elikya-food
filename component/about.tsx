@@ -113,7 +113,7 @@ export default function About() {
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-3">
                   <value.icon className="h-8 w-8 text-green-800" />
                 </div>
-                <span className="font-semibold text-green-800">{value.name}</span>
+                <span className="font-semibold text-gray-500">{value.name}</span>
               </motion.div>
             ))}
           </div>

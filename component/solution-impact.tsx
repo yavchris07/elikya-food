@@ -17,8 +17,8 @@ const impacts = [
 
 export default function SolutionImpact() {
   return (
-    <section className="section-padding bg-zinc-400">
-      <div className="container-custom w-[70%] mx-auto">
+    <section className="section-padding bg-green-700">
+      <div className="container-custom w-[70%] mx-auto py-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -80,16 +80,16 @@ export default function SolutionImpact() {
             </ul>
           </div>
 
-          <div className="p-8 bg-linear-to-br from-red-50 to-orange-50 rounded-2xl">
+          <div className="p-8 bg-green-900 rounded-2xl">
             <h3 className="heading-3 mb-6">What We Solve</h3>
-            <ul className="space-y-4 text-blue-600">
+            <ul className="space-y-4 text-white">
               {[
                 '40–50% post-harvest loss in the DRC',
                 'Unreliable quality and availability for urban buyers',
                 'Low and unstable incomes for smallholder farmers'
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <span className="text-red-500 font-bold">⚠</span>
+                  <span className="text-white font-bold">⚠</span>
                   <span className="font-medium">{item}</span>
                 </li>
               ))}

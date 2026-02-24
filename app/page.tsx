@@ -1,6 +1,7 @@
 // import Image from "next/image";
 
 import About from "@/component/about";
+import Footer from "@/component/footer";
 import Hero from "@/component/hero";
 import InvestCTA from "@/component/invest-cta";
 import Navbar from "@/component/navbar";
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <SolutionImpact />
       <InvestCTA />
+      <Footer/>
     </>
   );
 }
