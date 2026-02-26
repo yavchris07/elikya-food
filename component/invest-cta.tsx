@@ -21,8 +21,8 @@ export default function InvestCTA() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="heading-2 text-green-800 mb-4">Massive Opportunity — Local to Global</h2>
-          <p className="text-xl text-gray-500 max-w-2xl mx-auto">
+          <h2 className="heading-2 text-green-800 mb-4 text-[32px]">Massive Opportunity — Local to Global</h2>
+          <p className="text-xl text-gray-500 max-w-2xl mx-auto text-[26px]">
             Join us in building a more sustainable food future for Africa and beyond
           </p>
         </motion.div>
@@ -40,7 +40,7 @@ export default function InvestCTA() {
             >
               <stat.icon className="h-12 w-12 text-green-800 mx-auto mb-4" />
               <div className="text-4xl font-bold text-green-800 mb-2">{stat.value}</div>
-              <div className="text-gray-500">{stat.label}</div>
+              <div className="text-gray-500 text-[21px]">{stat.label}</div>
             </motion.div>
           ))}
         </div>
@@ -54,7 +54,7 @@ export default function InvestCTA() {
         >
           {/* Left Column - We Welcome */}
           <div className="bg-white p-8 rounded-2xl shadow-lg">
-            <h3 className="heading-3 mb-6 text-green-800">We welcome:</h3>
+            <h3 className="heading-3 mb-6 text-green-800 text-[28px]">We welcome:</h3>
             <ul className="space-y-4">
               {[
                 'Patient capital & recoverable grants',
@@ -62,8 +62,8 @@ export default function InvestCTA() {
                 'Strategic partners (hotels, restaurant chains, grocery groups, development organizations)'
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <span className="text-gray-500 font-bold">•</span>
-                  <span className='text-gray-500'>{item}</span>
+                  <span className="text-gray-500 font-bold text-[21px]">•</span>
+                  <span className='text-gray-500 text-[21px]'>{item}</span>
                 </li>
               ))}
             </ul>
@@ -71,19 +71,19 @@ export default function InvestCTA() {
 
           {/* Right Column - Partnership Opportunities */}
           <div className="bg-white p-8 rounded-2xl shadow-lg">
-            <h3 className="heading-3 mb-6 text-green-800">Partnership Opportunities</h3>
+            <h3 className="heading-3 mb-6 text-green-800 text-[28px]">Partnership Opportunities</h3>
             <div className="space-y-4">
               <div className="p-4 bg-accent rounded-lg">
-                <h4 className="font-bold text-primary mb-2 text-green-800">Buyers</h4>
-                <p className="text-gray-500">Hotels, restaurants, supermarkets seeking reliable, high-quality supply</p>
+                <h4 className="font-bold text-primary mb-2 text-green-800 text-[21px]">Buyers</h4>
+                <p className="text-gray-500 text-[21px]">Hotels, restaurants, supermarkets seeking reliable, high-quality supply</p>
               </div>
               <div className="p-4 bg-accent rounded-lg">
-                <h4 className="font-bold text-primary mb-2 text-green-800">Farmers</h4>
-                <p className="text-gray-500">Join our network for better prices, storage, training, and market access</p>
+                <h4 className="font-bold text-primary mb-2 text-green-800 text-[21px]">Farmers</h4>
+                <p className="text-gray-500 text-[21px]">Join our network for better prices, storage, training, and market access</p>
               </div>
               <div className="p-4 bg-accent rounded-lg">
-                <h4 className="font-bold text-primary mb-2 text-green-800">Corporates & Foundations</h4>
-                <p className="text-gray-500">Collaborate on nutrition, sustainability, or farmer support initiatives</p>
+                <h4 className="font-bold text-primary mb-2 text-green-800 text-[21px]">Corporates & Foundations</h4>
+                <p className="text-gray-500 text-[21px]">Collaborate on nutrition, sustainability, or farmer support initiatives</p>
               </div>
             </div>
           </div>
@@ -97,9 +97,9 @@ export default function InvestCTA() {
           viewport={{ once: true }}
           className="text-center"
         >
-          <h3 className="heading-3 mb-8 text-gray-500">Ready to build a more sustainable food future together?</h3>
+          <h3 className="heading-3 mb-8 text-gray-500 text-[21px]">Ready to build a more sustainable food future together?</h3>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center text-[21px]">
             <Link
               href="#"
               className="inline-flex items-center justify-center px-8 py-4 bg-primary hover:bg-primary/90 text-gray-500 font-semibold rounded-lg transition-all transform hover:scale-105"

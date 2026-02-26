@@ -1,11 +1,10 @@
 // components/Footer.tsx
-import Link from 'next/link'
 import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react'
 
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
-      <div className="container-custom py-12 w-[70%] mx-auto">
+      <div className="container-custom py-12 w-[70%] mx-auto text-[21px]">
         <div className="grid md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
