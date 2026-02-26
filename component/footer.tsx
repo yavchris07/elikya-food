@@ -5,8 +5,8 @@ import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'luc
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
-      <div className="container-custom py-12 px-12">
-        <div className="grid md:grid-cols-4 gap-8">
+      <div className="container-custom py-12 w-[70%] mx-auto">
+        <div className="grid md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
             <h3 className="text-2xl font-bold mb-4">
@@ -32,7 +32,7 @@ export default function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div>
+          {/* <div>
             <h4 className="font-bold text-lg mb-4">Quick Links</h4>
             <ul className="space-y-2">
               {['Home', 'About', 'Solution & Impact', 'Invest & Partner'].map((item) => (
@@ -46,7 +46,7 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Contact Info */}
           <div>

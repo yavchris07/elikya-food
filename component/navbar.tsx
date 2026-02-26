@@ -34,7 +34,7 @@ export default function Navbar() {
       }`}
     >
       <div className="container-custom">
-        <div className="flex items-center justify-between h-20 px-4">
+        <div className="flex items-center justify-between h-20 w-[70%] mx-auto">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold text-primary">
             Elikya<span className="text-secondary">Foods</span>
@@ -48,7 +48,7 @@ export default function Navbar() {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`text-foreground/80 hover:text-primary transition-colors font-medium ${scrolled ? "text-green-800" : "text-primary"}`}
+                className={`text-foreground/80 hover:text-primary transition-colors font-medium text-[18px] ${scrolled ? "text-green-800" : "text-primary"}`}
               >
                 {item.name}
               </Link>
@@ -80,7 +80,7 @@ export default function Navbar() {
                   key={item.name}
                   href={item.href}
                   onClick={() => setIsOpen(false)}
-                  className="block py-3 text-foreground/80 hover:text-primary transition-colors"
+                  className="block py-3 text-foreground/80 hover:text-primary transition-colors max-sm:text-green-800 px-4 sm:text-green-800"
                 >
                   {item.name}
                 </Link>

@@ -25,12 +25,12 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="max-w-3xl"
         >
-          <h1 className="heading-1 mb-6">
+          <h1 className="heading-1 mb-6 text-2xl">
             Transforming Africa&apos;s Food Future — From Farm to Table, No
             Waste
           </h1>
 
-          <p className="text-xl md:text-2xl mb-8 text-gray-200">
+          <p className="text-xl md:text-2xl mb-8 text-gray-200 max-sm:text-[14px]">
             Elikya Foods connects smallholder farmers to urban markets in the
             DRC, slashing post-harvest losses, boosting incomes, and delivering
             fresh, high-quality produce and protein to growing cities like
