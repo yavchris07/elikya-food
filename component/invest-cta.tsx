@@ -39,7 +39,7 @@ export default function InvestCTA() {
               className="text-center p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow"
             >
               <stat.icon className="h-12 w-12 text-green-800 mx-auto mb-4" />
-              <div className="text-4xl font-bold text-green-800 mb-2">{stat.value}</div>
+              <div className="text-4xl font-bold text-green-800 mb-2 max-sm:text-[16px]">{stat.value}</div>
               <div className="text-gray-500 text-[21px] max-sm:text-[16px]">{stat.label}</div>
             </motion.div>
           ))}

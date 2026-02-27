@@ -48,7 +48,7 @@ export default function Navbar() {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`text-foreground/80 hover:text-primary transition-colors font-medium text-[18px] ${scrolled ? "text-green-800" : "text-primary"}`}
+                className={`text-foreground/80 hover:text-primary transition-colors font-medium text-[18px] ${scrolled ? "text-green-800" : "text-green-700"}`}
               >
                 {item.name}
               </Link>
