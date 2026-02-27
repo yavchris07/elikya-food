@@ -11,7 +11,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url("./hero.jpg")',
+          backgroundImage: 'url("./ac-cover.jpg")',
         }}
       >
         <div className="absolute inset-0 bg-linear-to-r from-black/70 to-black/50" />
@@ -25,7 +25,7 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="max-w-3xl"
         >
-          <h1 className="heading-1 mb-6 text-2xl">
+          <h1 className="heading-1 mb-6 text-2xl max-sm:text-[14px] pt-14">
             Transforming Africa&apos;s Food Future — From Farm to Table, No
             Waste
           </h1>
@@ -37,7 +37,7 @@ export default function Hero() {
             Kinshasa.
           </p>
 
-          <p className="text-lg mb-12 text-secondary font-semibold">
+          <p className="text-lg mb-12 text-secondary font-semibold max-sm:text-[14px]">
             Building resilient supply chains for healthier communities and
             sustainable growth.
           </p>
@@ -45,14 +45,14 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/invest-partner"
-              className="inline-flex items-center justify-center px-8 py-4 bg-secondary hover:bg-secondary/90 text-white font-semibold rounded-lg transition-all transform hover:scale-105 border border-white"
+              className="inline-flex items-center justify-center px-8 py-4 bg-secondary hover:bg-secondary/90 text-white font-semibold rounded-lg transition-all transform hover:scale-105 border border-white max-sm:text-[14px]"
             >
               Explore Partnership Opportunities
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
             <Link
               href="/invest-partner#contact"
-              className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-semibold rounded-lg border-2 border-white/30 transition-all"
+              className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-semibold rounded-lg border-2 border-white/30 transition-all max-sm:text-[14px]"
             >
               Invest in Impact — Contact Us
             </Link>

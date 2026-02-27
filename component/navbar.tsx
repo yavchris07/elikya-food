@@ -34,9 +34,9 @@ export default function Navbar() {
       }`}
     >
       <div className="container-custom">
-        <div className="flex items-center justify-between h-20 w-[70%] mx-auto">
+        <div className="flex items-center justify-between h-20 w-[70%] mx-auto max-sm:w-[90%]">
           {/* Logo */}
-          <Link href="/" className="text-2xl font-bold text-primary">
+          <Link href="/" className="text-2xl font-bold text-primary max-sm:text-[18px]">
             Elikya<span className="text-secondary">Foods</span>
           </Link>
 

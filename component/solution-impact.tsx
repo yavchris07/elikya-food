@@ -26,8 +26,8 @@ export default function SolutionImpact() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="heading-2 text-primary mb-4 text-[28px]">Our Solution</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-[21px]">
+          <h2 className="heading-2 text-primary mb-4 text-[28px] max-sm:text-[22px]">Our Solution</h2>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-[21px] max-sm:text-[16px]">
             We bridge the broken food supply chain with a simple, scalable model
           </p>
         </motion.div>
@@ -49,8 +49,8 @@ export default function SolutionImpact() {
                 </div>
               </div>
               <step.icon className="h-12 w-12 text-primary mb-4 mt-4" />
-              <h3 className="text-xl font-bold mb-3 text-[21px]">{step.title}</h3>
-              <p className="text-muted-foreground text-[21px]">{step.description}</p>
+              <h3 className="text-xl font-bold mb-3 text-[21px] max-sm:text-[16px]">{step.title}</h3>
+              <p className="text-muted-foreground text-[21px] max-sm:text-[16px]">{step.description}</p>
             </motion.div>
           ))}
         </div>
@@ -64,7 +64,7 @@ export default function SolutionImpact() {
           className="grid md:grid-cols-2 gap-8 mb-20"
         >
           <div className="p-8 bg-linear-to-br from-primary/5 to-secondary/5 rounded-2xl">
-            <h3 className="heading-3 mb-6 text-[28px]">Key Differentiators</h3>
+            <h3 className="heading-3 mb-6 text-[28px] max-sm:text-[22px]">Key Differentiators</h3>
             <ul className="space-y-4">
               {[
                 'Fair, transparent prices + immediate cash payments for farmers',
@@ -73,15 +73,15 @@ export default function SolutionImpact() {
                 'Consistent supply and flexible terms (including credit) for buyers'
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <span className="text-secondary font-bold text-[21px]">✓</span>
-                  <span className='text-[21px]'>{item}</span>
+                  <span className="text-secondary font-bold text-[21px] max-sm:text-[16px]">✓</span>
+                  <span className='text-[21px] max-sm:text-[16px]'>{item}</span>
                 </li>
               ))}
             </ul>
           </div>
 
           <div className="p-8 bg-green-900 rounded-2xl">
-            <h3 className="heading-3 mb-6 text-[28px]">What We Solve</h3>
+            <h3 className="heading-3 mb-6 text-[28px] max-sm:text-[22px]">What We Solve</h3>
             <ul className="space-y-4 text-white">
               {[
                 '40–50% post-harvest loss in the DRC',
@@ -89,8 +89,8 @@ export default function SolutionImpact() {
                 'Low and unstable incomes for smallholder farmers'
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <span className="text-white font-bold text-[21px]">⚠</span>
-                  <span className="font-medium text-[21px]">{item}</span>
+                  <span className="text-white font-bold text-[21px] max-sm:text-[16px]">⚠</span>
+                  <span className="font-medium text-[21px] max-sm:text-[16px]">{item}</span>
                 </li>
               ))}
             </ul>
@@ -104,7 +104,7 @@ export default function SolutionImpact() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h3 className="heading-3 text-center mb-12 text-[28px]">Our Impact</h3>
+          <h3 className="heading-3 text-center mb-12 text-[28px] max-sm:text-[22px]">Our Impact</h3>
           <div className="grid md:grid-cols-3 gap-8">
             {impacts.map((impact, index) => (
               <motion.div
@@ -118,8 +118,8 @@ export default function SolutionImpact() {
                 <div className="inline-flex p-4 bg-accent rounded-full mb-4">
                   <impact.icon className={`h-8 w-8 ${impact.color}`} />
                 </div>
-                <h4 className="font-bold text-lg mb-2 text-[21px]">{impact.title}</h4>
-                <p className="text-muted-foreground text-[21px]">{impact.description}</p>
+                <h4 className="font-bold text-lg mb-2 text-[21px] max-sm:text-[16px]">{impact.title}</h4>
+                <p className="text-muted-foreground text-[21px] max-sm:text-[16px]">{impact.description}</p>
               </motion.div>
             ))}
           </div>
