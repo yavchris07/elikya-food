@@ -18,7 +18,7 @@ const impacts = [
 export default function SolutionImpact() {
   return (
     <section className="section-padding bg-green-700">
-      <div className="container-custom w-[70%] mx-auto py-8">
+      <div className="container-custom w-[70%] mx-auto py-8 max-sm:w-[90%]">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

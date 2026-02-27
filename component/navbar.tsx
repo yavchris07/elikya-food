@@ -30,13 +30,13 @@ export default function Navbar() {
       className={`fixed w-full z-50 transition-all duration-300 ${
         scrolled
           ? "bg-white/95 backdrop-blur-md shadow-lg text-green-800"
-          : "bg-transparent"
+          : "bg-white/85 text-primary"
       }`}
     >
       <div className="container-custom">
         <div className="flex items-center justify-between h-20 w-[70%] mx-auto max-sm:w-[90%]">
           {/* Logo */}
-          <Link href="/" className="text-2xl font-bold text-primary max-sm:text-[18px]">
+          <Link href="/" className="text-2xl font-bold text-green-800 max-sm:text-[18px]">
             Elikya<span className="text-secondary">Foods</span>
           </Link>
 

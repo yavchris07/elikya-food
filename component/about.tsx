@@ -16,7 +16,7 @@ export default function About() {
   return (
     // bg-linear-to-b from-white to-accent
     <section className="section-padding bg-white">
-      <div className="container-custom w-[70%] mx-auto py-">
+      <div className="container-custom w-[70%] mx-auto py-8 max-sm:w-[90%]">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
