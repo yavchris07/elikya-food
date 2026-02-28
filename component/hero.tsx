@@ -25,33 +25,34 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="max-w-3xl"
         >
-          <h1 className="heading-1 mb-6 text-2xl max-sm:text-[16px] pt-14">
+          {}
+          <h1 className="heading-1 mb-6 text-[60px] max-sm:text-[50px] pt-14">
             Transforming Africa&apos;s Food Future — From Farm to Table, No
             Waste
           </h1>
 
-          <p className="text-xl md:text-2xl mb-8 text-gray-200 max-sm:text-[16px]">
+          <p className="text-xl md:text-2xl mb-8 text-gray-200 max-sm:text-[13px]">
             Elikya Foods connects smallholder farmers to urban markets in the
             DRC, slashing post-harvest losses, boosting incomes, and delivering
             fresh, high-quality produce and protein to growing cities like
             Kinshasa.
           </p>
 
-          <p className="text-lg mb-12 text-secondary font-semibold max-sm:text-[16px]">
+          <p className="text-lg mb-12 text-secondary font-semibold max-sm:text-[13px]">
             Building resilient supply chains for healthier communities and
             sustainable growth.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
-              href="/invest-partner"
+              href="#"
               className="inline-flex items-center justify-center px-8 py-4 bg-secondary hover:bg-secondary/90 text-white font-semibold rounded-lg transition-all transform hover:scale-105 border border-white max-sm:text-[16px]"
             >
               Explore Partnership Opportunities
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
             <Link
-              href="/invest-partner#contact"
+              href="#"
               className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-semibold rounded-lg border-2 border-white/30 transition-all max-sm:text-[16px]"
             >
               Invest in Impact — Contact Us
